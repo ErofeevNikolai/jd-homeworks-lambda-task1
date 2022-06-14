@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         Calculator calc = Calculator.instance.get();
         int a = calc.plus.apply(1, 2);
-        int b = calc.minus.apply(1,1);
+        int b = calc.minus.apply(1, 1);
 
         /*
         в методе минус у нас происходит вычитание из первого аргумента второго соответственно переменная с = 0;
